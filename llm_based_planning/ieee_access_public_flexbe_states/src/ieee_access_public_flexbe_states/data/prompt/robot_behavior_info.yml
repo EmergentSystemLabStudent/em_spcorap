@@ -1,0 +1,8 @@
+BEHAVIOR_LIST:
+  navigation (place-related_word_name): move to a location where place-related_word_name is more likely to be observed
+  object_detection (object_name): detect an object_name and its position from a captured image
+  pick (object_name): pick up an object_name
+  place (place-related_word_name): place an object to a location where place-related_word_name is more likely to be observed
+INITIAL_POSITION:
+  - toy_room
+

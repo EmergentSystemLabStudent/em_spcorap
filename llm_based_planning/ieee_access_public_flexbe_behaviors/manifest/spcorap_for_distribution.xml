@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="spcorap_for_distribution">
+
+	<executable package_path="ieee_access_public_flexbe_behaviors.spcorap_for_distribution_sm" class="spcorap_for_distributionSM" />
+	<tagstring>spcorap_distribution</tagstring>
+	<author>Shoichi Hasegawa</author>
+	<date>Mon Nov 17 2025</date>
+	<description>
+		This behavior is spcorap behavior for distribution.
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+
+</behavior>
