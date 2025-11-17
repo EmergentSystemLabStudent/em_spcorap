@@ -1,0 +1,22 @@
+I would like to know where each object is most commonly observed within a household.
+
+For each object in the List of Object below, please select the top 3 locations where it is most likely to be found in a typical home environment.
+
+⚠️ Important instructions:
+- You must only select locations from the List of Place.
+- Do not include or invent any locations that are not in the List of Place (e.g., 'bathroom', 'laundry room').
+- Even if none of the listed places seem like a perfect fit for an object, you must still choose the most plausible or least implausible ones from the list.
+- Never output location names that are not present in the List of Place.
+
+List of Object:
+{OBJECT_NAME_LIST}
+
+List of Place:
+{LOCATION_NAME_LIST}
+
+Output format:
+object_name: [top1_place, top2_place, top3_place]
+
+Example:
+notebook_pc: [bedroom, living room, dining room]
+

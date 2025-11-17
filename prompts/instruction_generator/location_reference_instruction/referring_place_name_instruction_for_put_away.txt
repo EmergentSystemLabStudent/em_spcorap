@@ -1,0 +1,21 @@
+Imagine a scenario where a robot is working in a home and is given an instruction to put away an object.
+
+Using the object name and place name below, create one natural instruction like the example provided.
+
+About half the time, reword either the object name or the place name using a **natural paraphrase**.  
+In particular, can generalize specific locations into room-level descriptions when appropriate  
+(e.g., "in front of TV" → "living room", or "strawberry" → "red fruits").  
+You may reword both, one, or neither — whichever sounds most natural and clear.
+- Target object name: {OBJECT_NAME}
+- Target place name about object: {LOCATION_NAME_ABOUT_OBJECT}
+- Target place name about put away: {LOCATION_NAME_ABOUT_PUTTING_AWAY}
+
+- Example object name: candy
+- Example place name about object: bedroom
+- Example place name about put away: dining room
+- Example: Put away the candy in the bedroom to the dining area.
+
+Guidelines:
+- Do not include any names of other objects and places in the instruction.
+- Write only the instruction — no additional sentences or explanations.
+- Keep the instruction natural, concise, and easy to understand.

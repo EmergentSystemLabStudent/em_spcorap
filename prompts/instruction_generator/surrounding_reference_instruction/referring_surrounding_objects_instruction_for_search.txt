@@ -1,0 +1,16 @@
+Imagine a scenario where a robot is working in a home and is given an instruction to search for an object.
+Using the target object name and the list of surrounding objects below, create one natural instruction like the example provided.
+About half the time, reword the object name using a **natural paraphrase**.  
+- Target object name: {TARGET_OBJECT}
+- List of surrounding objects: {LIST_OF_SURROUNDING_OBJECTS}
+
+- (Example) Object name: candy
+- (Example) List of surrounding objects: ["apple", "orange", "cracker box"]
+- (Example) Instruction sentence: Search for a candy around the cracker box and orange
+
+Guidelines:
+- Do not include any place names in the instruction sentence.
+- Be sure to use object names from the list of surrounding objects, excluding the target object, and include them in the instruction sentence.
+- Include 2 to 3 surrounding object names in the instruction sentence.
+- Write only the instruction sentence; do not include any other text.
+- You can phrase the instruction however you like. It's fine to reword or keep the object name and the name of surrounding object as is.
