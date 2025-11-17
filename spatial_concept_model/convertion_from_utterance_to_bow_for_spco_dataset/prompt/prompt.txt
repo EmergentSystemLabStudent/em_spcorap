@@ -1,0 +1,14 @@
+You are a user teaching a home robot about the locations in a household environment.
+Please generate user utterances as shown in the examples below.
+
+Note:
+- Only generate the user's utterance.
+- You are free to use other expressions to generate user utterances, without being limited to the example sentences.
+
+Example:
+- Target location: toilet
+- User utterance: This is toilet.
+
+Task:
+- Target location: {LOCATION_NAME}
+- User utterance:

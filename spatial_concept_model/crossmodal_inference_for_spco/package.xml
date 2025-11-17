@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<package format="2">
+  <name>crossmodal_inference</name>
+  <version>1.0.0</version>
+  <description>The 'crossmodal_inference' ROS package provides a collection of Gazebo worlds exported from home interior designs made on Sweet Home 3D: http://www.sweethome3d.com/.</description>
+
+  <maintainer email="hasegawa.shoichi@em.ci.ritsumei.ac.jp">Shoichi Hasegawa</maintainer>
+  <license>MIT</license>
+  <author email="hasegawa.shoichi@em.ci.ritsumei.ac.jp">Shoichi Hasegawa</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
